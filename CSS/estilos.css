@@ -43,7 +43,8 @@ ul,ol
 	color: #fff;
 	text-decoration: none;
 	padding: 10px 15px;
-	display: block;
+    display: block;
+    
 }
 .navegadoriz li a:hover
 {
@@ -57,7 +58,8 @@ ul,ol
 {
 	float: unset;
 	padding: 1px 1px;
-	display: block;
+    display: block;
+    
 }
 
 .navegadoriz li ul
@@ -81,14 +83,22 @@ nav{
     width: 100%;
     height: 61px;
     text-align: center;
+    
 }
 #navi ul {
  list-style:none;
  margin-left:10%;
  padding:0;
+ 
 }
 
-
+.cn
+ {
+    list-style:none;
+    margin-left:10%;
+    padding:0;
+    
+   }
 
 #navi ul a {
  display:block;
@@ -100,6 +110,7 @@ nav{
  text-transform:uppercase;
  letter-spacing:1px;
  padding: 20;
+ 
 }
 
 
@@ -126,6 +137,7 @@ transition: 3s background;
  padding:0;
  width: 100%;
  height: auto;
+ 
 
 }
 
@@ -146,6 +158,7 @@ transition: 3s background;
 
 #navi ul li:hover > ul {
  display:block;
+ 
 }
 
 
@@ -274,7 +287,7 @@ font-family: initial;
 #contenido article p      
 {
  padding: 1em;
-color: #fff;
+ text-align: justify;
 font-size: 1.5em;
 
  }
@@ -284,6 +297,7 @@ font-size: 1.5em;
 height: 195px;
 margin-left: 29%;
 padding: 3%;
+
 
  }   
         footer{
@@ -296,15 +310,14 @@ padding: 3%;
 
   }
 
-.articulo2        
+.articulo        
 {
-    height: 1180px;
-    width: 96%;
+    
     margin: 1em;
     border-radius: 0em;
     background-color: aliceblue;
     text-decoration: none; color: black;
-    text-align: center;
+    
     padding: 10px;
    
 
